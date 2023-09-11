@@ -1,4 +1,4 @@
-name: new
+name: newman
 
 on:
   push:
