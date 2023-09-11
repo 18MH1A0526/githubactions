@@ -24,4 +24,10 @@ jobs:
     - name: Run Postman Tests
       run: |
         newman git.postman_collection.json
+
+    - name: Upload Test Reports
+      uses: actions/upload-artifact@v2
+      with:
+        name: test-reports
+        path: newman
       
